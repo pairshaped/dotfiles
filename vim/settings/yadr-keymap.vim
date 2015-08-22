@@ -120,6 +120,14 @@ noremap ,hl :set hlsearch! hlsearch?<CR>
 nnoremap ' `
 nnoremap ` '
 
+" Adds jump back to previous file
+nnoremap <leader><leader> <c-^>
+
+" Adds jj as optional esc. Reduces need to go to top of the keyboard to get out
+" of insert mode
+
+imap jj <Esc>
+
 " Get the current highlight group. Useful for then remapping the color
 map ,hi :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<' . synIDattr(synID(line("."),col("."),0),"name") . "> lo<" . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">" . " FG:" . synIDattr(synIDtrans(synID(line("."),col("."),1)),"fg#")<CR>
 
