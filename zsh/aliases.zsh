@@ -90,11 +90,6 @@ alias mps='mix phoenix.server'
 alias cb='cargo build'
 alias cr='cargo run'
 
-# Node
-alias coffee='node_modules/.bin/coffee'
-alias grunt='node_modules/.bin/grunt'
-alias gulp='node_modules/.bin/gulp'
-
 # TODOS
 # This uses NValt (NotationalVelocity alt fork) - http://brettterpstra.com/project/nvalt/
 # to find the note called 'todo'
