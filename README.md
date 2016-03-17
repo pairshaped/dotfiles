@@ -33,6 +33,8 @@ Please use GitHub Issues for pull requests or bug reports only.
 
 ## Installation
 
+**Make sure you have Ruby and Node installed.**
+
 To get started please run:
 
 ```bash
