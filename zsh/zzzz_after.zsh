@@ -5,5 +5,7 @@ if [ -d $HOME/.zsh.after/ ]; then
   fi
 fi
 
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 unsetopt correct_all
 unsetopt correct
