@@ -74,7 +74,7 @@ alias gz='tar -zcvf'
 # Ruby
 alias be='bundle exec'
 alias rc='bundle exec rails c'
-alias rs='bundle exec rails s -b 0.0.0.0'
+alias rs='bundle exec rails s -b 0.0.0.0 -p 3000'
 alias fs='foreman start'
 alias mm='bundle exec middleman -p 3000'
 alias rg='bundle exec rails g'
