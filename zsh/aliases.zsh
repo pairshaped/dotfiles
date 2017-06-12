@@ -95,8 +95,13 @@ alias cr='cargo run'
 # to find the note called 'todo'
 alias todo='open nvalt://find/todo'
 
+# Ruby
 alias rdm='rake db:migrate'
 alias rdr='rake db:reset'
+
+# Node
+alias ys='yarn start'
+alias nfs='nf start'
 
 # Calendar (pip install gcalci)
 alias cal='gcalcli agenda'
