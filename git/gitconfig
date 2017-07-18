@@ -130,5 +130,5 @@
   clean = git media clean %f
   smudge = git media smudge %f
 [user]
-	name = Dave Rapin
 	email = dave@rapin.com
+	name = Dave Rapin
