@@ -1,8 +1,8 @@
 " Make it beautiful - colors and fonts
 
 " http://ethanschoonover.com/solarized/vim-colors-solarized
-colorscheme solarized
-set background=dark
+" colorscheme solarized
+" set background=dark
 
 if has("gui_running")
   "tell the term has 256 colors

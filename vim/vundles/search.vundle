@@ -1,6 +1,6 @@
 Bundle "rking/ag.vim"
 Bundle "vim-scripts/IndexedSearch"
-Bundle "skwp/vim-easymotion"
+" Bundle "skwp/vim-easymotion"
 " Bundle "justinmk/vim-sneak"
 " Bundle "nelstrom/vim-visual-star-search"
 " Bundle "skwp/greplace.vim"
