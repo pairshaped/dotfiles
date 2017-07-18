@@ -3,3 +3,4 @@
 schema.rb
 /vendor
 /log
+/tmp
