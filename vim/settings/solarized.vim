@@ -1,7 +1,3 @@
-if !has("gui_macvim")
-  set t_Co=256
-endif
-
 hi! link txtBold Identifier
 hi! link zshVariableDef Identifier
 hi! link zshFunction Function
