@@ -4,3 +4,5 @@ schema.rb
 /vendor
 /log
 /tmp
+/elm-stuff
+/node_modules
