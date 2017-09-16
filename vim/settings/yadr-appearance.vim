@@ -15,9 +15,9 @@ if has("gui_running")
   set columns=190
 
   if has("gui_gtk2")
-    set guifont=Monaco\ 14,Inconsolata\ XL\ 14,Inconsolata\ 15
+    set guifont=Monaco\ 15,Inconsolata\ XL\ 15,Inconsolata\ 16
   else
-    set guifont=Monaco:h14,Inconsolata\ XL:h14,Inconsolata:h15
+    set guifont=Monaco:h15,Inconsolata\ XL:h15,Inconsolata:h16
   end
 else
   "dont load csapprox if we no gui support - silences an annoying warning

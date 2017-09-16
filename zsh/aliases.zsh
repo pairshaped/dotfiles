@@ -13,7 +13,7 @@ yadr=$HOME/.yadr
 # PS
 alias psa="ps aux"
 alias psg="ps aux | grep "
-alias psr='ps aux | grep ruby'
+# alias psr='ps aux | grep ruby'
 
 # Moving around
 # alias cdb='cd -'
@@ -29,15 +29,17 @@ alias free='free -m'
 # alias lsg='ll | grep'
 
 # Alias Editing
+alias mvim='open -a MacVim'
+
 # alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
 # alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 
 # vimrc editing
-alias ve='vim ~/.vimrc'
+# alias ve='vim ~/.vimrc'
 
 # zsh profile editing
-alias ze='vim ~/.zshrc'
-alias zr='source ~/.zshrc'
+# alias ze='vim ~/.zshrc'
+# alias zr='source ~/.zshrc'
 
 # Git Aliases
 alias gs='git status'
@@ -69,7 +71,7 @@ alias lh='ls -alt | head' # see the last modified files
 alias c='clear'
 
 # Zippin
-alias gz='tar -zcvf'
+# alias gz='tar -zcvf'
 
 # Ruby
 alias be='bundle exec'
@@ -93,18 +95,18 @@ alias cr='cargo run'
 # TODOS
 # This uses NValt (NotationalVelocity alt fork) - http://brettterpstra.com/project/nvalt/
 # to find the note called 'todo'
-alias todo='open nvalt://find/todo'
+# alias todo='open nvalt://find/todo'
 
 # Ruby
-alias rdm='rake db:migrate'
-alias rdr='rake db:reset'
+# alias rdm='rake db:migrate'
+# alias rdr='rake db:reset'
 
 # Node
 alias ys='yarn start'
 alias nfs='nf start'
 
 # Calendar (pip install gcalci)
-alias cal='gcalcli agenda'
+# alias cal='gcalcli agenda'
 
 # Sprintly - https://github.com/nextbigsoundinc/Sprintly-GitHub
 # alias sp='sprintly'
