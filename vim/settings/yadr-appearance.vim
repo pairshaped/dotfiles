@@ -1,9 +1,11 @@
 " Make it beautiful - colors and fonts
 
 " http://ethanschoonover.com/solarized/vim-colors-solarized
+let g:solarized_visibility = "low"
 colorscheme solarized
 set background=dark
 set t_Co=256
+
 
 if has("gui_running")
   " Show tab number (useful for Cmd-1, Cmd-2.. mapping)
