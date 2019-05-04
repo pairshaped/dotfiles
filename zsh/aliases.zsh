@@ -29,8 +29,7 @@ alias free='free -m'
 # alias lsg='ll | grep'
 
 # Alias Editing
-alias mvim='open -a MacVim'
-
+# alias mvim='open -a MacVim'
 # alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
 # alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 
