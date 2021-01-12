@@ -11,8 +11,8 @@ yadr=$HOME/.yadr
 # alias yip='yadr init-plugins'
 
 # PS
-alias psa="ps aux"
-alias psg="ps aux | grep "
+# alias psa="ps aux"
+# alias psg="ps aux | grep "
 # alias psr='ps aux | grep ruby'
 
 # Moving around
@@ -42,31 +42,31 @@ alias free='free -m'
 
 # Git Aliases
 alias gs='git status'
-alias gst='git status'
-alias gsa='git stash apply'
-alias gsh='git show'
-alias gcm='git ci -m'
-alias gcim='git ci -m'
-alias gci='git ci'
+# alias gst='git status'
+# alias gsa='git stash apply'
+# alias gsh='git show'
+# alias gcm='git ci -m'
+# alias gcim='git ci -m'
+# alias gci='git ci'
 alias gco='git co'
 alias gcp='git cp'
 alias ga='git add -A'
-alias guns='git unstage'
-alias gm='git merge'
-alias gl='git l'
-alias gf='git fetch'
+# alias guns='git unstage'
+# alias gm='git merge'
+# alias gl='git l'
+# alias gf='git fetch'
 alias gd='git diff'
 alias gb='git b'
 alias gpl='git pull'
 alias gps='git push'
-alias grs='git reset'
-alias gt='git t'
+# alias grs='git reset'
+# alias gt='git t'
 
 # Common shell functions
-alias less='less -r'
-alias tf='tail -f'
-alias l='less'
-alias lh='ls -alt | head' # see the last modified files
+# alias less='less -r'
+# alias tf='tail -f'
+# alias l='less'
+# alias lh='ls -alt | head' # see the last modified files
 alias c='clear'
 
 # Zippin
@@ -76,20 +76,19 @@ alias c='clear'
 alias be='bundle exec'
 alias rc='bundle exec rails c'
 alias rs='bundle exec rails s -b 0.0.0.0 -p 3000'
-alias fs='foreman start'
-alias mm='bundle exec middleman -p 3000'
-alias rg='bundle exec rails g'
-alias mm='bundle exec middleman -p3000'
-alias tfdl='tail -f log/development.log'
-alias ka9='killall -9'
-alias k9='kill -9'
+# alias fs='foreman start'
+# alias rg='bundle exec rails g'
+# alias mm='bundle exec middleman -p3000'
+# alias tfdl='tail -f log/development.log'
+# alias ka9='killall -9'
+# alias k9='kill -9'
 
 # Elixir
-alias mps='mix phoenix.server'
+# alias mps='mix phoenix.server'
 
 # Rust
-alias cb='cargo build'
-alias cr='cargo run'
+# alias cb='cargo build'
+# alias cr='cargo run'
 
 # TODOS
 # This uses NValt (NotationalVelocity alt fork) - http://brettterpstra.com/project/nvalt/
@@ -101,8 +100,8 @@ alias cr='cargo run'
 # alias rdr='rake db:reset'
 
 # Node
-alias ys='yarn start'
-alias nfs='nf start'
+# alias ys='yarn start'
+# alias nfs='nf start'
 
 # Calendar (pip install gcalci)
 # alias cal='gcalcli agenda'
