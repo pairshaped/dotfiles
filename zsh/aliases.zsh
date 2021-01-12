@@ -3,21 +3,6 @@
 # Don't change. The following determines where YADR is installed.
 yadr=$HOME/.yadr
 
-# YADR support
-# alias yav='yadr vim-add-plugin'
-# alias ydv='yadr vim-delete-plugin'
-# alias ylv='yadr vim-list-plugin'
-# alias yup='yadr update-plugins'
-# alias yip='yadr init-plugins'
-
-# PS
-# alias psa="ps aux"
-# alias psg="ps aux | grep "
-# alias psr='ps aux | grep ruby'
-
-# Moving around
-# alias cdb='cd -'
-
 # Show human friendly numbers and colors
 alias df='df -h'
 alias ll='ls -alGh'
@@ -25,20 +10,10 @@ alias ls='ls -Gh'
 alias du='du -h -d 2'
 alias free='free -m'
 
-# show me files matching "ls grep"
-# alias lsg='ll | grep'
-
 # Alias Editing
 # alias mvim='open -a MacVim'
 # alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
 # alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
-
-# vimrc editing
-# alias ve='vim ~/.vimrc'
-
-# zsh profile editing
-# alias ze='vim ~/.zshrc'
-# alias zr='source ~/.zshrc'
 
 # Git Aliases
 alias gs='git status'
@@ -65,7 +40,6 @@ alias gps='git push'
 # Common shell functions
 # alias less='less -r'
 # alias tf='tail -f'
-# alias l='less'
 # alias lh='ls -alt | head' # see the last modified files
 alias c='clear'
 
@@ -76,12 +50,6 @@ alias c='clear'
 alias be='bundle exec'
 alias rc='bundle exec rails c'
 alias rs='bundle exec rails s -b 0.0.0.0 -p 3000'
-# alias fs='foreman start'
-# alias rg='bundle exec rails g'
-# alias mm='bundle exec middleman -p3000'
-# alias tfdl='tail -f log/development.log'
-# alias ka9='killall -9'
-# alias k9='kill -9'
 
 # Elixir
 # alias mps='mix phoenix.server'
@@ -89,11 +57,6 @@ alias rs='bundle exec rails s -b 0.0.0.0 -p 3000'
 # Rust
 # alias cb='cargo build'
 # alias cr='cargo run'
-
-# TODOS
-# This uses NValt (NotationalVelocity alt fork) - http://brettterpstra.com/project/nvalt/
-# to find the note called 'todo'
-# alias todo='open nvalt://find/todo'
 
 # Ruby
 # alias rdm='rake db:migrate'
