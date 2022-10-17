@@ -51,6 +51,16 @@ alias be='bundle exec'
 alias rc='bundle exec rails c'
 alias rs='bundle exec rails s -b 0.0.0.0 -p 3000'
 
+# Python
+alias pip='pip3'
+
+# Docker
+alias docker-clean=' \
+  docker container prune -f ; \
+  docker image prune -f ; \
+  docker network prune -f ; \
+  docker volume prune -f '
+
 # Elixir
 # alias mps='mix phoenix.server'
 

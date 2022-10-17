@@ -7,9 +7,9 @@ if [ -d $HOME/.zsh.after/ ]; then
   fi
 fi
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-
 unsetopt correct_all
 unsetopt correct
+
+# function https-server() {
+#   http-server --ssl --cert ~/.localhost-ssl/localhost.crt --key ~/.localhost-ssl/localhost.key
+# }
