@@ -33,9 +33,11 @@ alias ga='git add -A'
 alias gd='git diff'
 alias gb='git b'
 alias gpl='git pull'
-alias gps='git push'
+alias gp='git push'
+alias gc='git commit'
 # alias grs='git reset'
 # alias gt='git t'
+alias gl='git l -n20'
 
 # Common shell functions
 # alias less='less -r'
