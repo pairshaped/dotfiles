@@ -109,7 +109,7 @@ It is recommended to use this file to set your user info. Alternately, you can s
   * `git b` or `gb`- a list of branches with summary of last commit
   * `git r` - a list of remotes with info
   * `git t` or `gt`- a list of tags with info
-  * `git nb` or `gnb`- a (n)ew (b)ranch - like checkout -b
+  * `git nb` or `gnb` or `cob`- a (n)ew (b)ranch - like checkout -b
   * `git cp` or `gcp`- cherry-pick -x (showing what was cherrypicked)
   * `git simple` - a clean format for creating changelogs
   * `git recent-branches` - if you forgot what you've been working on
@@ -156,6 +156,8 @@ of plugins above to learn more.
  * `Cmd-j` and `Cmd-k` to move up and down roughly by functions
  * `Ctrl-o` - Old cursor position - this is a standard mapping but very useful, so included here
  * `Ctrl-i` - opposite of Ctrl-O (again, this is standard)
+ * `jj` - equal to pressing <Esc>
+ * `,,` - switch between last open file and current file
 
 #### Search/Code Navigation
 
