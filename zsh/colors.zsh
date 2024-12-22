@@ -1,1 +1,2 @@
 export GREP_COLOR='1;33'
+export IRB_USE_AUTOCOMPLETE=false
